@@ -1,79 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Summited task: 
 
-# Getting Started
+1. Create a To-Do List App
+● Problem: Build a simple To-Do list application using React Native. The app should
+allow users to add, edit, and delete tasks. Each task should have a checkbox to mark
+it as completed.
+● Requirements:
+○ Use useState to manage the list of tasks.
+○ Implement a simple UI with text input for adding tasks and a list displaying
+tasks.
+○ Store the tasks in local storage so that the list persists across app restarts.
+● Evaluation Criteria: Code quality, use of React Native components, state
+management, and handling of edge cases.
+2. Fetch and Display Data from an API
+● Problem: Create a React Native app that fetches data from a public API (e.g.,
+JSONPlaceholder or any other free API) and displays the results in a flat list.
+● Requirements:
+○ Use useEffect to fetch data when the component mounts.
+○ Display the data in a FlatList.
+○ Implement a loading indicator while the data is being fetched.
+○ Handle errors that might occur during the API call.
+● Evaluation Criteria: Ability to interact with APIs, error handling, use of hooks, and
+user experience considerations.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+3. Create a Custom Modal Component
+● Problem: Build a custom modal component in React Native that can be reused
+across different screens. The modal should have a title, a body (which can accept
+custom content), and two buttons for "Confirm" and "Cancel".
+● Requirements:
+○ The modal should be a separate component that can be easily reused.
+○ The component should be able to accept props for the title, body content, and
+actions for the buttons.
+○ Implement animations for opening and closing the modal.
+● Evaluation Criteria: Component reusability, prop handling, and ability to implement
+animations.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+4. Implement a Simple Navigation Flow
+● Problem: Create a React Native app with a basic navigation flow using React
+Navigation. The app should have at least two screens: a Home screen and a
+Details screen.
+● Requirements:
+○ The Home screen should have a button that navigates to the Details screen.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+○ The Details screen should display some information passed from the Home
+screen.
+○ Implement a back button to return to the Home screen.
+● Evaluation Criteria: Understanding of navigation in React Native, prop passing, and
+screen transitions.
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+5. Implement a Form with Validation
+● Problem: Build a simple form in React Native with fields for name, email, and
+password. Implement basic validation for each field (e.g., required fields, valid email
+format, minimum password length).
+● Requirements:
+○ Use useState to manage form inputs.
+○ Display validation errors inline as the user types.
+○ The form should only be submittable when all validations pass.
+● Evaluation Criteria: Form handling, validation logic, and user feedback
+implementation.
+ 
