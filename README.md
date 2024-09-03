@@ -1,4 +1,4 @@
-Summited task: 
+5Task: 
 
 1. Create a To-Do List App
 ● Problem: Build a simple To-Do list application using React Native. The app should
